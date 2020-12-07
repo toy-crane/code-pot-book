@@ -1,5 +1,5 @@
 ---
-description: with VS code
+description: with VS-Code
 ---
 
 # 개발 환경 셋팅하기
