@@ -42,7 +42,7 @@ export default App;
 
 퀴즈를 `className` 기준  `question-sction` 과 `answer-section` 로 두 영역으로 나눴습니다. 그리고 className이 `container` , `app`인 `div`로 전체 컴포넌트를 감싸 주었습니다.
 
-`className`은 HTML에서 사용하는 선택자 `class`와 같습니다. `react`는 `html`의 속성으로 -를 사용할 수 없기 때문에, `camal case`로 속성 값을 작성합니다.
+`className`은 `HTML`에서 사용하는 선택자 `class`와 같습니다. `react`는 `html`의 속성으로 -를 사용할 수 없기 때문에, `camal case`로 속성 값을 작성합니다.
 
 {% hint style="info" %}
 HTML과 선택자에 대한 이해가 부족하다면 아래의 강의를 보시고 오는 것을 추천 드립니다.
@@ -146,4 +146,11 @@ button:hover {
   * CSS 선택자 이해하기 → [http://www.nextree.co.kr/p8468/](http://www.nextree.co.kr/p8468/)
 * CSS에서 배치는 어떻게 해야 할까?
   * Flex 완전 정복하기 → [https://studiomeal.com/archives/197](https://studiomeal.com/archives/197)
+
+## 5. 질문이 있나요??
+
+{% hint style="warning" %}
+아래 링크를 통해 언제든 질문 해주세요 🙌   
+[https://github.com/codepot-company/starter-quiz-app/discussions](https://github.com/codepot-company/starter-quiz-app/discussions)
+{% endhint %}
 
