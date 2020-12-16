@@ -137,10 +137,10 @@ button:hover {
 
 ## 3. 전체 코드 살펴보기
 
-* 깃허브에서 전체 코드 보기 -&gt; [https://github.com/codepot-company/starter-quiz-app/tree/part1](https://github.com/codepot-company/starter-quiz-app/tree/part1)
-* 온라인에서 마음대로 테스트 해보기 \(Code Sandbox\)-&gt;  [https://codesandbox.io/s/react-starter-sandbox-x6mkk?file=/src/App.js](https://codesandbox.io/s/react-starter-sandbox-x6mkk?file=/src/App.js)
+* 깃허브에서 전체 코드 보기 -&gt; [바로가기](%20https://github.com/codepot-company/starter-quiz-app/tree/part2) 
+* 온라인에서 마음대로 테스트 해보기 \(Code Sandbox\) -&gt; [바로가기](https://codesandbox.io/s/starter-quiz-app-part2-k0pit?file=/src/App.js) 
 
-## Something More!!
+## 4. Something More!!
 
 * CSS에서 요소를 선택하고, 스타일을 입히자
   * CSS 선택자 이해하기 → [http://www.nextree.co.kr/p8468/](http://www.nextree.co.kr/p8468/)
