@@ -80,7 +80,7 @@ export default App;
 ## 5. 질문이 있나요??
 
 {% hint style="warning" %}
-아래 링크를 통해 언제든 질문 해주세  
+아래 링크를 통해 언제든 질문 해주세요 🙌   
 [https://github.com/codepot-company/starter-quiz-app/discussions](https://github.com/codepot-company/starter-quiz-app/discussions)
 {% endhint %}
 
