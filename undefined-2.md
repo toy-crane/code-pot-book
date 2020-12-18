@@ -1,49 +1,17 @@
-# 정답/오답 체크 기능 만들기
+# 6. 정답/오답 체크 기능 만들기
 
 ![](.gitbook/assets/dec-16-2020-17-34-22.gif)
 
 전체 틀을 만들었으니, 위에 보이는 화면처럼 간단한 정답 오답 체크 기능을 만들어 보도록 하겠습니다.
 
-## 1. 질문들을 딕셔너리로 관리하기
+## 1. 퀴즈 제목과 답변 웹페이지에 그리기
+
+### JSX 리뷰 
+
+퀴즈 제목과 답변을 그리기 전에 이전에 배웠던 `JSX`에 대해서 간단하게 리뷰를 하고 넘어 가도록 하겠습니다.  
+기억이 잘 나지 않는다면 -&gt; 서   
 
 `App.js`의 코드를 아래의 코드와 같이 바꿔보도록 하겠습니다.
-
-```javascript
-import "./App.css";
-import React from "react";
-
-function App() {
-	const question = {
-		questionText: "일론 머스크의 우주 탐사 기업 이름은?",
-		answerOptions: [
-			{ answerText: "스페이스 엑스", isCorrect: true },
-			{ answerText: "테슬라", isCorrect: false },
-			{ answerText: "보링 컴퍼니", isCorrect: false },
-			{ answerText: "솔라시티", isCorrect: false },
-		],
-	};
-	return (
-		<div className="container">
-			<div className="app">
-				<div className="question-section">
-					<h1 className="question-header">
-						<span>1</span>/4
-					</h1>
-					<div className="question-text">{question.questionText}</div>
-				</div>
-				<div className="answer-section">
-					<button>스페이스 엑스</button>
-					<button>테슬라</button>
-					<button>보링 컴퍼니</button>
-					<button>솔라시티</button>
-				</div>
-			</div>
-		</div>
-	);
-}
-
-export default App;
-```
 
 question 변수를 하나 만들어 주었고, 내부에는 질문과 대답을 `dictionary` 형태로 만들어 저장해 두었습니다.
 
