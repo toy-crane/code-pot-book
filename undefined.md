@@ -22,18 +22,24 @@ import './App.css';
 
 function App() {
   return (
-    <div>나의 첫 리액트 프로젝트</div>
+    <div>Hello React!</div>
   );
 }
 
 export default App;
 ```
 
+{% hint style="info" %}
+**return 내부에 HTML이 포함되어 있는데 이건 뭔지 궁금하시다구요?**
+
+* 다음 파트에서 배울 내용으로 React에 HTML을 다루는 방식으로 JSX라고 부릅니다.
+{% endhint %}
+
 그리고 나서 터미널에서 `npm start` 로 `React` 코드를 실행시켜 주세요.
 
 실행 후, 아래와 같은 화면이 나오는 것을 볼 수 있습니다.
 
-![](.gitbook/assets/screen_shot_2020-12-11_at_2.08.22_pm.png)
+![](.gitbook/assets/screen-shot-2020-12-18-at-12.16.50-pm.png)
 
 코드에 대해서 간략하게 설명해 보도록 하겠습니다.
 
@@ -46,12 +52,12 @@ import React from "react";
 import "./App.css";
 
 function App() {
-    return (
-        <div>
-            나의 첫 리액트 프로젝트
-            <button>버튼</button>
-        </div>
-    );
+	return (
+		<div>
+			<div>Hello React!</div>
+			<button>button</button>
+		</div>
+	);
 }
 
 export default App;
